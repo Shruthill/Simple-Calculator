@@ -52,6 +52,14 @@ $(document).ready(function () {
                 eval(document.forms.display.value);
         }
     });
+    $('#del').click(function () {
+        if (display.value == "") {
+            alert("Enter numbers to calculate!");
+        } else {
+            document.forms.display.value =document.forms.display.value.slice(0,-1);
+               
+        }
+    });
     $('#clear').click(function () {
         document.forms.display.value = "";
     });

@@ -80,8 +80,9 @@ input#clear:hover{
   background: #bd0303;
 }
 input#equal {
-  width: 275px;
-  margin: 10px 0 10px 0;
+    width: 258px;
+    height: 55px;
+  margin: 10px 0 10px 20px;
   font-size: 30px;
   color: white;
   background: #3001ff;
